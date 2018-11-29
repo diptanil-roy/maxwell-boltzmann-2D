@@ -1,0 +1,13 @@
+g++ -o calculation calculation.cpp
+
+./calculation
+
+rm calculation
+
+mkdir HistogramData
+
+python3 Visualisation.py
+
+rm -rf HistogramData
+
+rm calctime.txt

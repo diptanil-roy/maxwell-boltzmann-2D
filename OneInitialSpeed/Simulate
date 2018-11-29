@@ -1,0 +1,13 @@
+g++ -o calculation calculationforoneinitialspeed.cpp
+
+./calculation
+
+rm calculation
+
+mkdir HistogramData
+
+python VisualisationOneInitialSpeed.py
+
+rm -rf HistogramData
+
+rm calctime.txt

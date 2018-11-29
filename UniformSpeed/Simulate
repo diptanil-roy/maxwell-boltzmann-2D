@@ -1,0 +1,13 @@
+g++ -o calculation calculationuniforminitialspeed.cpp
+
+./calculation
+
+rm calculation
+
+mkdir HistogramData
+
+python VisualisationUniform.py
+
+rm -rf HistogramData
+
+rm calctime.txt
